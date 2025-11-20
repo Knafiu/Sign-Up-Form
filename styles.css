@@ -1,0 +1,54 @@
+body {
+    background-image: url("website_img.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.5);;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 780px;
+    width: 500px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+span{
+    color: white;
+    padding: 15px;
+}
+label{
+    color: white;
+    display: block;
+    
+}
+.submit{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 10%;
+    align-self: center;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
